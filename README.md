@@ -1,11 +1,35 @@
-<div align="center">
+# Jarvis Arc Reactor AI Assistant
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+A futuristic AI assistant inspired by Iron Man, featuring a voice-reactive Arc Reactor UI.
 
-  <h1>Built with AI Studio</h2>
+## Features
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+- **Iconic Arc Reactor UI**: Precise animation and visual design from the Iron Man films.
+- **Voice Interaction**: Talk to Jarvis using your microphone.
+- **Intelligent Response**: Powered by Google Gemini with a Jarvis-inspired personality.
+- **Real-time Visualization**: The reactor glows and pulses in sync with your voice and Jarvis's speech.
+- **Persistent Memory**: Jarvis remembers your name and past interactions.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## Setup Instructions
 
-</div>
+1. **API Key**: Ensure you have a `GEMINI_API_KEY` set in your environment or Secret panel.
+2. **Installation**: The system automatically installs dependencies.
+3. **Running the App**:
+   - The app runs on a unified Express + Vite server.
+   - Click the Arc Reactor to start listening.
+   - Say "My name is [Your Name]" to test the memory system.
+
+## Project Structure
+
+- `server.ts`: Unified entry point (Express + Vite middleware).
+- `backend/`: Server-side logic for memory and data storage.
+- `src/App.tsx`: Frontend application logic and UI.
+- `src/index.css`: Arc Reactor styles and HUD effects.
+
+## Command Features
+
+Try saying:
+- "My name is Tony Stark"
+- "What is my name?"
+- "Open YouTube"
+- "Tell me a joke, Jarvis"

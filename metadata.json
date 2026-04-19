@@ -1,0 +1,6 @@
+{
+  "name": "Jarvis Arc Reactor AI Assistant",
+  "description": "A futuristic AI assistant inspired by Iron Man, featuring a voice-reactive Arc Reactor UI with memory and personality.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": []
+}
